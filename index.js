@@ -12,14 +12,14 @@ mongoose
   })
   .catch(err => {
     console.log(err);
-    console.log('\x1b[31m\x1b[1m MongoDB Not Connected');
+    console.log('MongoDB Not Connected');
   });
 
 const hostname = '127.0.0.1';
 const port = 3000;
 
 app.get('/',(req,res)=>{
-    res.status(200).send('Server running : FreeGuide\n');
+    res.status(200).send('Hello World : here FreeGuide starts\n');
 });
 
 app.listen(port, hostname, () => {
