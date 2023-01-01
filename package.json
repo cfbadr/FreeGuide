@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/cfbadr/FreeGuide#readme",
   "dependencies": {
-    "config": "^3.2.3",
+    "config": "^3.3.8",
     "express": "^4.17.1",
     "mongoose": "^5.7.5"
   },
